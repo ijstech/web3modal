@@ -2,7 +2,6 @@
 node_modules
 
 # ignore transpiled files
-dist
 lib
 
 .env
@@ -12,3 +11,4 @@ lib
 
 yarn.lock
 .eslintcache
+package-lock.json

@@ -9,9 +9,4 @@ services:
     image: node:14.17.0
     volumes:
       - .:/data
-    command: bash -c "cd /data && npm run prepare"
-  test:
-    image: node:14.17.0
-    volumes:
-      - .:/data
-    command: bash -c "cd /data && npm run test"    
+    command: bash -c "cd /data && npm run clean && npm run build"
