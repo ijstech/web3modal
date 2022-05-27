@@ -6,6 +6,6 @@ interface IProviderProps {
     themeColors: ThemeColors;
     onClick: () => void;
 }
-export declare function Provider(props: IProviderProps): JSX.Element;
+export declare function Provider(props: IProviderProps): any;
 export {};
 //# sourceMappingURL=Provider.d.ts.map
